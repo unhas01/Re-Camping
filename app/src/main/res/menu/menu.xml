@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu"
+        android:icon= "@drawable/icon_menu"
+        android:title="Menu"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/cart"
+        android:icon= "@drawable/icon_mall"
+        android:title="Mall"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/home"
+        android:icon= "@drawable/icon_home"
+        android:title="Home"
+        android:visible="true"/>
+    <item
+        android:id="@+id/chat"
+        android:icon= "@drawable/icon_community"
+        android:title="Community"
+        android:visible="true"/>
+    <item
+        android:id="@+id/myinfo"
+        android:icon= "@drawable/icon_account"
+        android:title="My Page"
+        android:visible="true"/>
+
+</menu>

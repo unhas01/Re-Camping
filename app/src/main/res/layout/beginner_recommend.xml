@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".BeginnerRecommendActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seoul Firefist's survey results"
+            android:textSize = "20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding = "8dp"
+            android:background="#eeeeee"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="5dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recommended products"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="3dp"/>
+
+        <TextView
+            android:id="@+id/tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#Hammock #BBQ set #Camping Chair #Brazier"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#eeeeee"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/item_imageView1"
+                    android:layout_width="113dp"
+                    android:layout_height="104dp"
+                    app:srcCompat="@drawable/hammock1"
+                    android:layout_marginLeft="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/item_title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rent a sturdy hammock!!"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/item_contents1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Get this hammock at an affordable price" />
+
+                    <TextView
+                        android:id="@+id/item_price1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="price : $3 per day" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#eeeeee"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/item_imageView2"
+                    android:layout_width="113dp"
+                    android:layout_height="104dp"
+                    app:srcCompat="@drawable/hammock2"
+                    android:layout_marginLeft="4dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/item_title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I rent this at a good price."
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/item_contents2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="condition is ok. Can take up a lot of space" />
+
+                    <TextView
+                        android:id="@+id/item_price2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="price : $3 per day" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#eeeeee"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/item_imageView3"
+                    android:layout_width="113dp"
+                    android:layout_height="104dp"
+                    app:srcCompat="@drawable/bbqgrill1"
+                    android:layout_marginLeft="4dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/item_title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Have a great time camping with this grill"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/item_contents3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="This grill is in good condition. You can even borrow fuel if you need it" />
+
+                    <TextView
+                        android:id="@+id/item_price3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="price : $8 per day" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#eeeeee"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/item_imageView4"
+                    android:layout_width="113dp"
+                    android:layout_height="104dp"
+                    app:srcCompat="@drawable/chair1"
+                    android:layout_marginLeft="4dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/item_title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact me if you need camping chairs"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/item_contents4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="not bad condition. Can be rented at a low price." />
+
+                    <TextView
+                        android:id="@+id/item_price4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="price : $1 per day" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
