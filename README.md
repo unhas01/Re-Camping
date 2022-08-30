@@ -5,7 +5,7 @@ Silicon Valley SW Technology & Innovation Program
 
 ---
 Team 5. Woowa
- - 박경서 
+ - [박경서](https://github.com/unhas01)
  - [송학현](https://github.com/alanhakhyeonsong) 
  - [마지안](https://github.com/babydumbo)
  - [노수연](https://github.com/suy00065)
